@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877454762673",
+    "project_id": "fall2023-ygajji-wannago-app",
+    "storage_bucket": "fall2023-ygajji-wannago-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877454762673:android:9d429698da0bdca41f7890",
+        "android_client_info": {
+          "package_name": "com.yash.android.wannago"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB_cjjHw-uWS-NgcCVuFz9FOAMHG3KRJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

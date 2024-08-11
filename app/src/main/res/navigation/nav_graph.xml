@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.yash.android.wannago.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/go_to_favourite_fragment"
+            app:destination="@id/favouriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantFragment"
+        android:name="com.yash.android.wannago.restaurants.RestaurantFragment"
+        android:label="RestaurantFragment"
+        tools:layout="@layout/fragment_restaurant">
+        <action
+            android:id="@+id/show_restaurant_detail"
+            app:destination="@id/restaurantDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.yash.android.wannago.favourites.FavouriteFragment"
+        android:label="FavouriteFragment"
+        tools:layout="@layout/fragment_favourite">
+        <action
+            android:id="@+id/show_favourite_detail"
+            app:destination="@id/favouriteDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantDetailFragment"
+        android:name="com.yash.android.wannago.restaurants.RestaurantDetailFragment"
+        android:label="RestaurantDetailFragment"
+        tools:layout="@layout/fragment_restaurant_detail">
+        <argument
+            android:name="locationId"
+            app:argType="java.util.UUID"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteDetailFragment"
+        android:name="com.yash.android.wannago.favourites.FavouriteDetailFragment"
+        android:label="FavouriteDetailFragment">
+        <argument
+            android:name="locationId"
+            app:argType="java.util.UUID"/>
+    </fragment>
+</navigation>

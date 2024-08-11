@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WannaGo</string>
+    <string name="home">Home</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="wanna_go">Wanna Go</string>
+    <string name="wanna_go_email">helpdesk@wannago.com</string>
+    <string name="app_caption">Your Travel App</string>
+    <string name="app_intro">Save the locations you wanna go in different categories.\nYou can save your favorite locations, restaurants, parks etc.\n\n - Click Navigation menu\n - Select your category\n - Tap on the map to add a new place to your list.</string>
+    <string name="app_icon_description">Wanna Go App Icon</string>
+    <string name="favourites">Favourites</string>
+    <string name="go_to_favourite_locations">Go to favourite locations</string>
+</resources>
